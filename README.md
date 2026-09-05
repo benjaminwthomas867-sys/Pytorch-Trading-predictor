@@ -9,4 +9,6 @@ The AI_training.py file is the training loop for the model, where you pull OHLC 
 
 test.py is then what is used for model inference. The output for each date is a prediction of whether the price will be above or below the previous close price. (0 being below and 1 being above)
 
+"01_model_finance.pth" is the name of a model file which I trained using this program.
+
 **There are some basic comments on the files, mainly in the AI_training.py file to highlight the parameters that you can play around with**
